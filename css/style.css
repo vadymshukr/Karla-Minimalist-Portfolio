@@ -51,23 +51,6 @@
   font-weight: 700;
 }
 
-.content-section__name {
-  font-family: 'Karla', sans-serif;
-  font-weight: 400;
-  text-align: center;
-  font-size: 77px;
-}
-
-.content-section__text {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-}
-
-.content-section__image {
-  width: 100%;
-}
-
 .vertical-menu__item {
   color: #000000;
   display: block;
@@ -94,13 +77,31 @@
   background: url("../img/scroll-section-box-active.png") no-repeat center left;
 }
 
-.header {
+.content-section__name {
   font-family: 'Karla', sans-serif;
   font-weight: 400;
+  text-align: center;
+  font-size: 77px;
+  margin: 30px 0;
 }
 
-.header__navigation-menu {
-  padding: 13.8% 0;
+.content-section__text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0 10%;
+}
+
+.content-section__image {
+  width: 100%;
+  padding: 0 10%;
+  margin: 70px 0 50px 0;
+}
+
+.content-section__subtitle {
+  text-align: center;
+  margin: 30px 0;
+  padding: 0 10%;
 }
 
 .form {
@@ -109,11 +110,13 @@
 }
 
 .form__label {
+  padding: 0 10%;
   width: 100%;
   font-size: 24px;
 }
 
 .form__input {
+  padding: 0 10%;
   width: 100%;
 }
 
@@ -121,58 +124,23 @@
   width: 100%;
 }
 
+.what-i-do__title {
+  border-right: 1px solid black;
+}
+
+.what-i-do__content-section {
+  padding-top: 100px;
+}
+
+.about-me__title {
+  border-left: 1px solid black;
+}
+
 .contact__name {
   text-align: left;
 }
 
-.works-gallery__image {
-  width: 100%;
-  height: 100%;
-}
-
-.works-gallery__image-container {
-  padding: 0;
-}
-
-.what-i-do-section {
-  font-family: 'Karla', sans-serif;
-  font-weight: 400;
-}
-
-.what-i-do-section__upper-section {
-  padding-top: 160px;
-}
-
-.what-i-do-section__lower-section {
-  margin-top: 225px;
-}
-
-.visual-description__image {
-  width: 100%;
-}
-
-.section-header {
-  text-align: center;
-}
-
-.section-header__header {
-  font-size: 75px;
-}
-
-.paragraph {
-  font-size: 18px;
-}
-
-.middle-section {
-  text-align: center;
-}
-
-.vertical-line {
-  border-left: 1px solid black;
-  height: 100px;
-  position: absolute;
-  left: 50%;
-  margin-left: -1px;
-  top: 0;
+.contact__title {
+  border-right: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */
