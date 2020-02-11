@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Open+Sans:300&display=swap');
+
+@mixin karlabold{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+@mixin karlaregular{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+@mixin opensanslight{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}

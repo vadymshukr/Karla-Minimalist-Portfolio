@@ -1,0 +1,52 @@
+.what-i-do-section
+    +karlaregular
+    &__upper-section
+        padding-top: 160px
+    &__lower-section
+        margin-top: 225px
+
+.section-description
+
+
+.visual-description
+    &__image
+        width: 100%
+
+.section-header
+    text-align: center
+    &__header
+        font-size: 75px
+
+.vertical-menu
+    &__item
+        color: #000000
+        font-size: 32px
+        display: block
+        margin-bottom: 90px
+    &__item::before
+        content: ''
+        display: inline-block
+        background: url('../img/scroll-section-box.png') no-repeat center left
+        position: relative
+        top: 20px
+        height: 50px
+        width: 50px
+        padding-right: 50%
+    &__item_active
+        +karlabold
+    &__item_active::before
+        background: url('../img/scroll-section-box-active.png') no-repeat center left
+
+.paragraph
+    font-size: 18px
+
+.middle-section
+    text-align: center
+
+.vertical-line
+    border-left: 1px solid black
+    height: 100px
+    position: absolute
+    left: 50%
+    margin-left: -1px
+    top: 0

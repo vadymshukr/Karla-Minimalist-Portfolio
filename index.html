@@ -8,19 +8,159 @@
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
             crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     
     <title>KARLA MINIMALIST PORTFOLIO</title>
 </head>
 <body>
     <header class="header">
-        <nav class="navigation-menu">
-            <li class="navigation-menu__link">Home</li>
-            <li class="navigation-menu__link">My Works</li>
-            <li class="navigation-menu__link">What I do</li>
-            <li class="navigation-menu__link">About me</li>
-            <li class="navigation-menu__link">Contact</li>
-        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
+                    <nav class="navigation-menu header__navigation-menu">
+                        <a href="#" class="navigation-menu__link">Home</a>
+                        <a href="#" class="navigation-menu__link navigation-menu__link_active">My Works</a>
+                        <a href="#" class="navigation-menu__link">What I do</a>
+                        <a href="#" class="navigation-menu__link">About me</a>
+                        <a href="#" class="navigation-menu__link">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="works-gallery">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6 works-gallery__image-container"><img class="works-gallery__image" src="./img/img01.png" alt=""></div>
+                    <div class="col-6 works-gallery__image-container"><img class="works-gallery__image" src="./img/img02.png" alt=""></div>
+                </div>
+                <div class="row">
+                    <div class="col-3 works-gallery__image-container"><img class="works-gallery__image" src="./img/img03.png" alt=""></div>
+                    <div class="col-3 works-gallery__image-container"><img class="works-gallery__image" src="./img/img04.png" alt=""></div>
+                    <div class="col-3 works-gallery__image-container"><img class="works-gallery__image" src="./img/img05.png" alt=""></div>
+                    <div class="col-3 works-gallery__image-container"><img class="works-gallery__image" src="./img/img06.png" alt=""></div>
+                </div>
+            </div>     
+        </div>
     </header>
+    <div class="what-i-do-section">
+        <div class="container">
+            <div class="upper-section what-i-do-section__upper-section">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="section-header ">
+                            <h1 class="section-header__header">What I do</h1>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="middle-section">
+                            <div class="vertical-line">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="section-description">
+                            <p class="paragraph section-description__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Pellentesque rutrum velit ac mattis placerat. 
+                                Sed molestie accumsan nibh dictum consectetur. 
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+                                per inceptos himenaeos. Nunc quis nisl ac lectus suscipit sollicitudin et nec lorem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower-section what-i-do-section__lower-section">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="visual-description what-i-do-section__visual-description">
+                            <div class="visual-description__image-container">
+                                <img class="visual-description__image" src="./img/img-computer.png" alt="">
+                            </div>
+                            <div class="visual-description__text">
+                                <h2 class="visual-description__small-heading">UX/UI</h2>
+                                <p class="paragraph visual-description__paragraph">Morbi pulvinar nulla in ornare venenatis. 
+                                    Curabitur ac ante justo. 
+                                    Pellentesque eget lacinia nunc. 
+                                    Pellentesque aliquam arcu at congue mattis. 
+                                    Suspendisse sit amet eros varius, ultricies elit sed, tincidunt magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="vertical-menu">
+                            <a href="#" class="vertical-menu__item">Key Visual</a>
+                            <a href="#" class="vertical-menu__item vertical-menu__item_active">UX/UI</a>
+                            <a href="#" class="vertical-menu__item">Brand</a>
+                            <a href="#" class="vertical-menu__item">Package Design</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="about-me__image-section">
+                        <img src="" alt="" class="about-me__image">
+                    </div>
+                </div>
+                <div class="col-2"><div class="vertical-line"></div></div>
+                <div class="col-5">
+                    <div class="about-me__text-section">
+                        <h2 class="about-me__header">About me</h2>
+                        <p class="about-me__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rutrum velit ac mattis placerat. Sed molestie accumsan nibh dictum consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc quis nisl ac lectus suscipit sollicitudin et nec lorem. Vestibulum pharetra ligula vel ullamcorper pretium. Aenean porttitor condimentum consectetur. Phasellus at magna molestie, dictum dolor et, dapibus mauris. Nullam maximus porta sollicitudin. Proin semper turpis eros, quis mollis dolor aliquam eu. Etiam a dui mattis, posuere mi ut, blandit mauris. Fusce aliquam lectus in venenatis aliquet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-5">
+                    <div class="contact-section">
+                        <h2>Contact</h2>
+                        <div class="contact-card">
+                            <span class="contact-card__header">Adress:</span>
+                            <p class="contact-card__text">9114 Bridge Street , 
+                                Hillsboro, OR 97124</p>
+                        </div>
+                        <div class="contact-card">
+                            <span class="contact-card__header">Phone:</span>
+                            <p class="contact-card__text">+48 202 - 555 - 0114</p>
+                        </div>
+                        <div class="contact-card">
+                            <span class="contact-card__header">Email:</span>
+                            <p class="contact-card__text">contact@yoursite.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"><div class="vertical-line"></div></div>
+                <div class="col-5">
+                    <div class="contact-form">
+                        <form action="">
+                            <label for="GET-name">Name:</label>
+                            <input type="text" name="name" id="GET-name">
+                            <label for="GET-email">Email:</label>
+                            <input type="email" name="email" id="GET-email">
+                            <label for="GET-message">Message:</label>
+                            <textarea name="message" id="GET-message" cols="30" rows="10"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <small>Copyright 2020</small>
+    </footer>
 </body>
 </html>

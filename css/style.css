@@ -1,1 +1,144 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700|Open+Sans:300&display=swap");
+@media screen and (min-width: 50em) {
+  html {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  html {
+    font-size: 1.5em;
+  }
+  h1 {
+    font-size: 3.2rem;
+  }
+  a {
+    font-size: 1.25rem;
+  }
+}
+
+.header {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+.header__navigation-menu {
+  padding: 13.8% 0;
+}
+
+.navigation-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+}
+
+.navigation-menu__link:first-child {
+  margin-right: 10px;
+}
+
+.navigation-menu__link {
+  color: #000000;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.navigation-menu__link:last-child {
+  margin-left: 10px;
+}
+
+.navigation-menu__link:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navigation-menu__link_active {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
+
+.works-gallery__image {
+  width: 100%;
+  height: 100%;
+}
+
+.works-gallery__image-container {
+  padding: 0;
+}
+
+.what-i-do-section {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+.what-i-do-section__upper-section {
+  padding-top: 160px;
+}
+
+.what-i-do-section__lower-section {
+  margin-top: 225px;
+}
+
+.visual-description__image {
+  width: 100%;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header__header {
+  font-size: 75px;
+}
+
+.vertical-menu__item {
+  color: #000000;
+  font-size: 32px;
+  display: block;
+  margin-bottom: 90px;
+}
+
+.vertical-menu__item::before {
+  content: '';
+  display: inline-block;
+  background: url("../img/scroll-section-box.png") no-repeat center left;
+  position: relative;
+  top: 20px;
+  height: 50px;
+  width: 50px;
+  padding-right: 50%;
+}
+
+.vertical-menu__item_active {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
+
+.vertical-menu__item_active::before {
+  background: url("../img/scroll-section-box-active.png") no-repeat center left;
+}
+
+.paragraph {
+  font-size: 18px;
+}
+
+.middle-section {
+  text-align: center;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+  top: 0;
+}
+/*# sourceMappingURL=style.css.map */
