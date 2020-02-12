@@ -3,6 +3,8 @@
         color: #000000
         display: block
         margin-bottom: 90px
+        +karlaregular
+        font-size: 24px
     &__item::before
         content: ''
         display: inline-block
@@ -11,8 +13,12 @@
         top: 20px
         height: 50px
         width: 50px
-        padding-right: 50%
+        left: -25px
+        margin-right: 30%
     &__item_active
         +karlabold
     &__item_active::before
         background: url('../img/scroll-section-box-active.png') no-repeat center left
+    &__item:hover
+        text-decoration: none
+        color: #000000
